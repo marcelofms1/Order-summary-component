@@ -40,7 +40,7 @@ body{
 }
 
 #price_area{
-    background-color: hsl(240, 87%, 97%);
+    background-color: hsl(240, 100%, 98%);
     border-radius:.5em;
     margin:1em;
 }
@@ -81,5 +81,5 @@ body{
 
 #main_text{
     color:hsl(241, 25%, 57%);
-    width:80%;
+    width:90%;
 }
