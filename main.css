@@ -1,0 +1,85 @@
+body{
+    background-color:hsl(225, 100%, 94%);
+    font-family: 'Bellota Text', cursive;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+#background_img{
+    position:absolute;
+    z-index:-1;
+    /* width:100%; */
+}
+
+#person_illustration{
+    position:static;
+    width:123%;
+    border-top-right-radius:2em;
+    border-top-left-radius:2em;
+    margin-bottom:1em;
+}
+
+.order_form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:white;
+    margin:.5em;    
+    padding-left:2em;
+    padding-right:2em;
+    padding-bottom:1em;
+    border-radius:2em;
+}
+
+#price_area{
+    width:100%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#price_area{
+    background-color: hsl(240, 87%, 97%);
+    border-radius:.5em;
+    margin:1em;
+}
+
+.btn_area{
+    display:flex;
+    flex-direction: column;
+    gap:1em;
+}
+
+#btn_one{
+    background-color: hsl(245, 75%, 52%);
+    color:white;
+    border:none;
+    border-radius:.5em;
+    font-weight: 900;
+    padding-top:1em;
+    padding-bottom:1em;
+    cursor: pointer;
+    display: block;
+    width: 200%;
+    align-self:center;
+}
+#btn_one:hover{
+    box-shadow: 5px 5px 2px lightgray;
+}
+
+#btn_two{
+    border:none;
+    background:none;
+    font-weight: 900;
+    padding-top:1em;
+    padding-bottom:1em;
+    cursor: pointer;
+    align-self:center;
+    color:hsl(241, 25%, 57%);
+}
+
+#main_text{
+    color:hsl(241, 25%, 57%);
+    width:80%;
+}
