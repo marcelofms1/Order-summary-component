@@ -66,7 +66,7 @@ body{
     padding: 1.5em 2em;
     cursor: pointer;
     display: block;
-    width: 154%;
+    width: 192%;
     align-self:center;
 }
 #btn_one:hover{
@@ -112,9 +112,11 @@ body{
     }
 
     #btn_one{
-        transition: 200ms ease-in-out;
+        transition: 300ms ease-in-out;
     }
 
-    #btn_one:hover
+    #btn_one:hover{
+        box-shadow: 5px 5px 5px rgb(186, 186, 186);
+    }
 
 }
