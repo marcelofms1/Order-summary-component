@@ -4,10 +4,14 @@ body{
     font-family: 'Red Hat Display', sans-serif;
 }
 
-#background_img{
+#desktop_background{
+    width:50%;
     position:absolute;
     z-index:-1;
-    /* width:100%; */
+}
+#mobile_background{
+    position:absolute;
+    z-index:-1;
 }
 
 #person_illustration{
@@ -16,6 +20,7 @@ body{
     border-top-right-radius:2em;
     border-top-left-radius:2em;
     margin-bottom:1em;
+    
 }
 
 .order_form{
@@ -30,6 +35,7 @@ body{
     padding-right:2em;
     padding-bottom:1em;
     border-radius:2em;
+    
 }
 
 #price_area{
@@ -41,7 +47,7 @@ body{
 
 #price_area{
     background-color: hsl(240, 100%, 98%);
-    border-radius:.5em;
+    border-radius:1em;
     margin:1em;
 }
 
@@ -55,13 +61,12 @@ body{
     background-color: hsl(245, 75%, 52%);
     color:white;
     border:none;
-    border-radius:.5em;
+    border-radius:1em;
     font-weight: 900;
-    padding-top:1em;
-    padding-bottom:1em;
+    padding: 1.5em 2em;
     cursor: pointer;
     display: block;
-    width: 200%;
+    width: 154%;
     align-self:center;
 }
 #btn_one:hover{
@@ -82,4 +87,24 @@ body{
 #main_text{
     color:hsl(241, 25%, 57%);
     width:90%;
+}
+
+#annual{
+    font-weight:900;
+}
+
+@media only screen and (min-width: 1440px){
+    .order_form{
+        width:20%;
+        margin:0% auto;  
+        margin-top:6em;  
+        position:relative;
+    }
+    #desktop_background{
+        position:absolute;
+        z-index:-1;
+        top:0;
+        width:100%;
+    }
+
 }
